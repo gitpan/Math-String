@@ -15,6 +15,7 @@ lib/Math/String/Charset/Grouped.pm
 lib/Math/String/Charset/Nested.pm
 lib/Math/String/Sequence.pm
 bench/str_cache.pl		# measure string caching effect
+bench/size.pl			# measure Math::String object size in memory
 t/setspm.t			# Math::String::Charset
 t/setgpm.t			# Math::String::Charset::Grouped
 t/setnpm.t			# Math::String::Charset::Nested

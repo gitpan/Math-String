@@ -5,10 +5,11 @@ WriteMakefile(
     'NAME'		=> 'Math::String',
     'VERSION_FROM'	=> 'lib/Math/String.pm', # finds $VERSION
     'PREREQ_PM'		=> { 
-			Math::BigInt => 1.67,
-			Math::BigFloat => 1.41,
+			Math::BigInt => 1.73,
+			Math::BigFloat => 1.47,
 			   },
     'LIBS'		=> [''], # e.g., '-lm'
     'DEFINE'		=> '', # e.g., '-DHAVE_SOMETHING'
     'INC'		=> '', # e.g., '-I/usr/include/other'
+    'NO_META'		=> 1,
 );
