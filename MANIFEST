@@ -12,8 +12,13 @@ examples/dict.pl
 examples/wordlist.txt
 lib/Math/String.pm
 lib/Math/String/Charset.pm
+lib/Math/String/Charset/Grouped.pm
+lib/Math/String/Charset/Nested.pm
 lib/Math/String/Sequence.pm
 bench/str_cache.pl		# measure string caching effect
-t/charsetpm.t
+t/setspm.t			# Math::String::Charset
+t/setgpm.t			# Math::String::Charset::Grouped
+t/setnpm.t			# Math::String::Charset::Nested
 t/sequence.t
 t/stringpm.t
+t/study.t
