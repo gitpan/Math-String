@@ -1,0 +1,19 @@
+CHANGES
+BUGS
+INSTALL
+README
+LICENSE
+MANIFEST
+NEW
+THANX
+TODO
+Makefile.PL
+examples/dict.pl
+examples/wordlist.txt
+lib/Math/String.pm
+lib/Math/String/Charset.pm
+lib/Math/String/Sequence.pm
+bench/str_cache.pl		# measure string caching effect
+t/charsetpm.t
+t/sequence.t
+t/stringpm.t
