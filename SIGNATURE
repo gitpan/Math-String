@@ -1,0 +1,54 @@
+This file contains message digests of all files listed in MANIFEST,
+signed via the Module::Signature module, version 0.21.
+
+To verify the content in this distribution, first make sure you have
+Module::Signature installed, then type:
+
+    % cpansign -v
+
+It would check each file's integrity, as well as the signature's
+validity.  If "==> Signature verified OK! <==" is not displayed,
+the distribution may already have been compromised, and you should
+not run its Makefile.PL or Build.PL.
+
+-----BEGIN PGP SIGNED MESSAGE-----
+
+SHA1 f6faa7ce15f863934760762548a57c421d62720d BUGS
+SHA1 d5a9056ca67a1ec85a5eae1acb99a287e8c3a07b CHANGES
+SHA1 e793c3c553c8985b88d6cd4bcf70918fedee311c CREDITS
+SHA1 1478a9491db7843cc30982149743f24b03c1900f INSTALL
+SHA1 d6a6c30ee6d9ba6b9afab8bbf6a25e1b23c744e0 LICENSE
+SHA1 a68fb70adec2cba3c0b64e02d0def9a9be098b88 MANIFEST
+SHA1 de249d8ac8cd11950792792d310812ff96ada8e7 Makefile.PL
+SHA1 49b15b55112e7bb5952c128881c735a334aa575a NEW
+SHA1 71aa07adda03523c48781ca46ecda9b6a9099e4f README
+SHA1 732b325ff45bc2fb03a186e35122d41690d77e0e TODO
+SHA1 c77e115a72bbc65c3303fb6ea33c9069b4a899e8 bench/str_cache.pl
+SHA1 e91d9b330267bcf83b6159df359c39bfa3181508 examples/dict.pl
+SHA1 d526aced1029ebf3ad0eeaae20a2bd752379177c examples/wordlist.txt
+SHA1 ebf36c5cf9217cf916c58001d7239cb6e36d55b9 lib/Math/String.pm
+SHA1 d8f1e0f3f0fb55d4bc8809b1bd61e5544d3369e1 lib/Math/String/Charset.pm
+SHA1 31f89b63dd4bd7e5aba685e857fa2d6f0bb3003f lib/Math/String/Charset/Grouped.pm
+SHA1 09354c1c7e51088925923df694218e13be55ac88 lib/Math/String/Charset/Nested.pm
+SHA1 94862f99e0356d4e5baa11bc143bc6273f4ed87e lib/Math/String/Charset/Wordlist.pm
+SHA1 a83ce37d4bb078f4541d8985a179baddc2ab4eae lib/Math/String/Sequence.pm
+SHA1 f195a57ebe9bf3ab963d41b1323e3a5106d254dc t/sequence.t
+SHA1 b0aa2e9810833109d12110cf39b2f54dcf5e3a53 t/setgpm.t
+SHA1 b3dee692c7c1ca982577c86f26ff8646fa23aa7e t/setnpm.t
+SHA1 0a02922a9d1f88e0675cab14b9018a7387956e9e t/setspm.t
+SHA1 c7194fc62f78853c9e3ab10d10fa1f5a65975a7e t/setwpm.t
+SHA1 f4ff45584ceb0c152b4a0e80d10d3e518b69709e t/stringpm.t
+SHA1 c72a656d3812edae252f657c14d305ff638e5da8 t/study.t
+SHA1 218befcfa05f8d1550c7c9067c81b6d01fefe4fd t/testlist.lst
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.0.6 (GNU/Linux)
+Comment: When cryptography is outlawed, bayl bhgynjf jvyy unir cevinpl.
+
+iQEVAwUBPmhjTXcLPEOTuEwVAQHCVgf9HdP9RPFabBpiwDKeDsNCiaLvZRAKNEiV
+ImN0waZx90PAiuXAaUj2CK98nL9TyCOw7wVAQqLzfXdTWYyzXo84y2fg2dodG/xz
+0jC6Y8A1hAwy8s7r1fZ7CQ7WQWyHuE2eN1KWK7XkDc+x336lmPYdlA9k0H4gsQFj
+ulGwuoa72OL5hkO1h4vVlc3QItg8GKJbggO0ogYBNWZcf5nt/ILMdHza4yN2y1IW
+X953aKv6yDARAqSzc2ThcbTu/9nvzoZEePk88zDiLsVtXhzfuWaJH0QspqGFJt2/
+v4GawoTTL9F8fnAOPVJ7o/ADOMK1xkKjQ2QQgEAX9fkVYHaPYAm5tQ==
+=dBpe
+-----END PGP SIGNATURE-----
