@@ -1,5 +1,5 @@
 This file contains message digests of all files listed in MANIFEST,
-signed via the Module::Signature module, version 0.22.
+signed via the Module::Signature module, version 0.36.
 
 To verify the content in this distribution, first make sure you have
 Module::Signature installed, then type:
@@ -14,17 +14,18 @@ not run its Makefile.PL or Build.PL.
 -----BEGIN PGP SIGNED MESSAGE-----
 
 SHA1 f6faa7ce15f863934760762548a57c421d62720d BUGS
-SHA1 717b990c45a1d1a51a829568033572dcb43203c3 CHANGES
+SHA1 44e2aad5b3d667417c59166e40ddd58d349a6ac1 CHANGES
 SHA1 20acec234ebbcf4fd9a89e5712e7a4db67ca36e0 CREDITS
 SHA1 1478a9491db7843cc30982149743f24b03c1900f INSTALL
 SHA1 d6a6c30ee6d9ba6b9afab8bbf6a25e1b23c744e0 LICENSE
-SHA1 06b9cfc2a573fb127d2e0cb1e3b7062e516fe167 MANIFEST
-SHA1 581cfef0d644ca059e9aa6c0355553fa9139ec5c Makefile.PL
-SHA1 8c872fdbff1c10f75157d2a4ff7819a4288931a1 NEW
+SHA1 42eab1e6303f941071ed6b353e93a2afac2cb17e MANIFEST
+SHA1 fad38003466b17267e877279c0a054ee41e93183 META.yml
+SHA1 c5347525e22838c836c4ffe9e23bfef4c9d4c0fd Makefile.PL
+SHA1 1942fd50e80f294d2b92f98f2b35f2b2d2ba8c95 NEW
 SHA1 71aa07adda03523c48781ca46ecda9b6a9099e4f README
 SHA1 732b325ff45bc2fb03a186e35122d41690d77e0e TODO
 SHA1 c77e115a72bbc65c3303fb6ea33c9069b4a899e8 bench/str_cache.pl
-SHA1 211cfd9d855c1e150b94cde2cadc79aa551c3781 lib/Math/String.pm
+SHA1 7f76c63e40399f9253f4e67c2e1c6f4628801aa7 lib/Math/String.pm
 SHA1 1327a43c3ef6710145acf68d2a8f2f8ae71f5e19 lib/Math/String/Charset.pm
 SHA1 bf9bc4abba794c2809473c2d4cbb4e74f7e3643b lib/Math/String/Charset/Grouped.pm
 SHA1 e283251ed0d0298f611d0864238d68a7b7e2bca9 lib/Math/String/Charset/Nested.pm
@@ -33,17 +34,17 @@ SHA1 f195a57ebe9bf3ab963d41b1323e3a5106d254dc t/sequence.t
 SHA1 e205c0984df26a3fc633ba1fa27647d1187cce4f t/setgpm.t
 SHA1 194e7f422793506fa1ced90f9a4b9422ed96a711 t/setnpm.t
 SHA1 dc2c42a25e65decc167cb695fbd8e86197b62bdb t/setspm.t
-SHA1 10b7e89fea87bfc9a6593fbb147dc50d282e1403 t/stringpm.t
+SHA1 785f1539bad819140c1d90f58a04c4253e0fb5f4 t/stringpm.t
 SHA1 c72a656d3812edae252f657c14d305ff638e5da8 t/study.t
 -----BEGIN PGP SIGNATURE-----
 Version: GnuPG v1.2.2-rc1-SuSE (GNU/Linux)
 Comment: When cryptography is outlawed, bayl bhgynjf jvyy unir cevinpl.
 
-iQEVAwUBPzpsbXcLPEOTuEwVAQFEOAf8DAteykvFjgZCsvOCvCb2upk4bDHv+1sD
-1lp3F4su6sfadLwkPnh4+8iRO4hOWdm3ct6+bCv8lSaY15Xi2rpOh49nQR2GGTlA
-VZvNHwwPALZuOYjPoYCOfCPti/DIuTjaLPMowWWmhzAncdnboKZGOxhX8vK6tvrP
-gbLUdxxzwLQAXIHlOBImZLb4bd+UmbTKo4OYj1VIYgepzCaOgHY5i0zHURXAWQhQ
-bIlT+V77gVxHBvrmI4BovBnrUOqvjKej0bbcK8onmtJY6ZSAkQc41nVj64NpaP3D
-Cvx6anK4rQoYftS0Knhhnyo5ohcPWF2GBZQ/Yt3vzLc/G8VlNbyt3Q==
-=BiMV
+iQEVAwUBP9jKWncLPEOTuEwVAQGszAf+Lmn6gMc063241XWaObWjA3hVcxo02oV8
+tWuHXPit69aNXMM3D+tUwAnntwR6bCfSuuZs4boHrmCXtnwCDdcZOrTiCoLTsVBN
+/WvFPJs5n74R6Mb1cO97nt4hRFbpJKUrxXyGhM8PJBALlVGCXAf0pXYK46Jl/9Kk
+anoBFOk/gGkisOROv53jld9mYEvZpd57iuTvokqIOfpyPQBO9jp5wHrgESC/4MH5
+KLzxzEOAwr6GcFnv3sv9mBobyOfSPeh82OnROKjNgPZ4bMHpSzh/3xHpag1FErxO
+kGCPwm/mstxumw1jqEBzodzC6FMa3J38189eYo8Fg4EiS3fYblm6FQ==
+=wrR0
 -----END PGP SIGNATURE-----

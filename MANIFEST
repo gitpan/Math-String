@@ -21,3 +21,4 @@ t/setnpm.t			# Math::String::Charset::Nested
 t/sequence.t
 t/stringpm.t
 t/study.t
+META.yml                                 Module meta-data (added by MakeMaker)
