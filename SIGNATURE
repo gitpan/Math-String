@@ -1,12 +1,12 @@
 This file contains message digests of all files listed in MANIFEST,
-signed via the Module::Signature module, version 0.41.
+signed via the Module::Signature module, version 0.42.
 
 To verify the content in this distribution, first make sure you have
 Module::Signature installed, then type:
 
     % cpansign -v
 
-It would check each file's integrity, as well as the signature's
+It will check each file's integrity, as well as the signature's
 validity.  If "==> Signature verified OK! <==" is not displayed,
 the distribution may already have been compromised, and you should
 not run its Makefile.PL or Build.PL.
@@ -14,23 +14,23 @@ not run its Makefile.PL or Build.PL.
 -----BEGIN PGP SIGNED MESSAGE-----
 
 SHA1 f6faa7ce15f863934760762548a57c421d62720d BUGS
-SHA1 eaf3ed525134eaea8fa19af7ce0ba11d69f16242 CHANGES
+SHA1 2ca866b5c8af82e6a67febfa326560086af3a484 CHANGES
 SHA1 20acec234ebbcf4fd9a89e5712e7a4db67ca36e0 CREDITS
 SHA1 1478a9491db7843cc30982149743f24b03c1900f INSTALL
 SHA1 d6a6c30ee6d9ba6b9afab8bbf6a25e1b23c744e0 LICENSE
 SHA1 f0ae27e8632a6b70ed583f509f0c374360270b61 MANIFEST
-SHA1 cd502fb699757e25cb0c76e5ae19218b717b7968 META.yml
-SHA1 31d67115fad4671e3b32a3fdeb8bfd900032823b Makefile.PL
-SHA1 2da197ff643e38c7356ac01f8bfc3f5bb3aad92d NEW
+SHA1 d30c1a7bbaeff091571bf8e2f0b8f2cd50d3a183 META.yml
+SHA1 dfe55784402b590e4b73a1e8e60d83ef8ba5b5c0 Makefile.PL
+SHA1 68b397d35693fad12935b0f2562e437600b16820 NEW
 SHA1 71aa07adda03523c48781ca46ecda9b6a9099e4f README
 SHA1 59e6bfe9b64c0792ab001f67a44b015c1503a2fa TODO
 SHA1 eafe439df1c73009221b7ab085ae425b64dc37b7 bench/size.pl
 SHA1 b412676bdbbeb19fbd598dc27277104daccb58d8 bench/str_cache.pl
-SHA1 5741f51389566005a07836e19dd64ef23b29b225 lib/Math/String.pm
+SHA1 5ce85b12ebd5832e9cc45c3b5c680c146e9c012b lib/Math/String.pm
 SHA1 fafcb11f5c1bea2e61c84a6c60c9ac00b574adeb lib/Math/String/Charset.pm
 SHA1 e360160c3bc69da0e8b10e7f0486b6cd9b558181 lib/Math/String/Charset/Grouped.pm
 SHA1 f174410d2577455e0f893948760fb60e47736240 lib/Math/String/Charset/Nested.pm
-SHA1 2e7826b4062059c422a6a6e49e7a2a5a5f130e89 lib/Math/String/Sequence.pm
+SHA1 8ac00c219a792a68b18e6f351a59d97b48806ca0 lib/Math/String/Sequence.pm
 SHA1 f195a57ebe9bf3ab963d41b1323e3a5106d254dc t/sequence.t
 SHA1 da19b1812f938e882b83b6388e9036f23a1fb7a9 t/setgpm.t
 SHA1 194e7f422793506fa1ced90f9a4b9422ed96a711 t/setnpm.t
@@ -40,11 +40,11 @@ SHA1 c72a656d3812edae252f657c14d305ff638e5da8 t/study.t
 -----BEGIN PGP SIGNATURE-----
 Version: GnuPG v1.2.4 (GNU/Linux)
 
-iQEVAwUBQZ+Xl3cLPEOTuEwVAQF7mgf9H4fhSxQ3aBptPx8/2qAHiPNULKnFTPM7
-hslbhEsGDfqlM0b8lD3SHj1L69EqZmyTP+J+xGQe/wpo1rM5r8pC3eG+zQTvkR6a
-ykvpP35aF2uPp5mb9iVtEZyfCExsTnjOdHp6vXRojxvxgEZeqd2t/4ll+mrNS3wB
-sBkScnPGKPZHtv/WKLQCkOXldjZFEzXrpJHh2bzK+AmEEWVvr09g5CAJ4Nn+hzWl
-zymn/lOudvv9eGNW0M8n/Y0f+XBwBjNUHqdtz8jTby5WuwCeC4sYyRJVuZwnuTGX
-Ro59dIMRsQaMFvNVeIqimrFYh7qiKQtTqTalG1V2l/+ml6OlX5vBZQ==
-=Ro+s
+iQEVAwUBQdbMjncLPEOTuEwVAQH8rgf/UpDnHudZA3pPrGFSNSMuWcIggN5FMHTV
+O5DzoDXZGh5vd7GU4Ic3/SOY7YFNnQGoFwG1V6VaOVodxbg4eekLjhtXMbdhU6IE
+mhwt1wKKoLWZJbVN1ScfLRqsBZ08WlT2FQixw7VZpqe7SzfFC8qT6ebYiKFn8lK0
+XAmkZpcGQZ67ReAtNDmYqasKJ+yoJakLP2+SXZH+z0yVS0QXnCBGepZrTv3MiAkG
+JQOSzzqA29pSAlYu6+eldhrLNFastSTbugy3EIV6+chTrsQf0aua860niVpvDRtN
+AAYustNcapn1x7aMKacU7PkIJIkCLc4uCzrylaiDJPur56dTFm99Ww==
+=1FpE
 -----END PGP SIGNATURE-----
