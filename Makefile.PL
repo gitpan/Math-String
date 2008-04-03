@@ -1,41 +1,25 @@
-use ExtUtils::MakeMaker;
 
-sub MY::metafile {
-  package MY;
-  my $self = shift;
-  if (!eval { require YAML; 1 })
-  {
-    warn ("YAML not installed, will not override META.yml");
-    return $self->SUPER::metafile_target(@_);
-  };
+# We need at least Perl 5.8.3
+require 5.008003;
+use strict;
 
-  my $node = new YAML::Node {};
+# Load the Module::Install bundled in ./inc/
+use inc::Module::Install;
 
-  $node->{name}			= $self->{DISTNAME};
-  $node->{version}		= $self->{VERSION};
-  $node->{version_from}		= $self->{VERSION_FROM};
-  $node->{license}		= 'perl';
-  $node->{distribution_type}	= 'module';
-  $node->{generated_by}		= "$self->{DISTNAME} version $self->{VERSION}";
-  $node->{installdirs}		= 'site';
-  $node->{requires}		= $self->{PREREQ_PM};
+# Get most of the details from the primary module
+all_from	'lib/Math/String.pm';
 
-  my $dump = YAML::Dump( $node );
+requires	'Math::BigInt'	=> 1.87;
+requires	'Math::BigFloat'=> 1.58;
 
-  $dump =~ s/^(.*)$/\t\$(NOECHO) \$(ECHO) "$1" >>META.yml/gm;
-  $dump =~ s/>>META\.yml/>META.yml/;
+build_requires	'Test::More'	=> 0.62;
 
-  return "metafile:\n$dump";
-}
+license		'gpl';
 
-WriteMakefile(
-    'NAME'		=> 'Math::String',
-    'VERSION_FROM'	=> 'lib/Math/String.pm', # finds $VERSION
-    'PREREQ_PM'		=> { 
-			Math::BigInt => 1.74,
-			Math::BigFloat => 1.48,
-			   },
-    'LIBS'		=> [''], # e.g., '-lm'
-    'DEFINE'		=> '', # e.g., '-DHAVE_SOMETHING'
-    'INC'		=> '', # e.g., '-I/usr/include/other'
-);
+author		'Tels <nospam-abuse@bloodgate.com>';
+
+# Do not index these
+no_index	directory	=> 'bench';
+
+# Generate the Makefile
+WriteAll;

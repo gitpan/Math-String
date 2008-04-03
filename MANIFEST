@@ -1,25 +1,34 @@
-CHANGES
+bench/size.pl			# measure Math::String object size in memory
+bench/str_cache.pl		# measure string caching effect
 BUGS
-INSTALL
-README
-LICENSE
-MANIFEST
-NEW
+CHANGES
 CREDITS
-TODO
-SIGNATURE
-Makefile.PL
+inc/Module/Install.pm
+inc/Module/Install/Base.pm
+inc/Module/Install/Can.pm
+inc/Module/Install/Fetch.pm
+inc/Module/Install/Makefile.pm
+inc/Module/Install/Metadata.pm
+inc/Module/Install/Win32.pm
+inc/Module/Install/WriteAll.pm
+INSTALL
 lib/Math/String.pm
 lib/Math/String/Charset.pm
 lib/Math/String/Charset/Grouped.pm
 lib/Math/String/Charset/Nested.pm
 lib/Math/String/Sequence.pm
-bench/str_cache.pl		# measure string caching effect
-bench/size.pl			# measure Math::String object size in memory
-t/setspm.t			# Math::String::Charset
+LICENSE
+Makefile.PL
+MANIFEST
+MANIFEST.SKIP
+META.yml			Module meta-data (added by MakeMaker)
+NEW
+README
+SIGNATURE
+t/sequence.t
 t/setgpm.t			# Math::String::Charset::Grouped
 t/setnpm.t			# Math::String::Charset::Nested
-t/sequence.t
+t/setspm.t			# Math::String::Charset
 t/stringpm.t
 t/study.t
-META.yml                                 Module meta-data (added by MakeMaker)
+TODO
